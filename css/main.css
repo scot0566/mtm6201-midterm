@@ -1,0 +1,205 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 900px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Centers the content */
+    padding: 0 20px; /* Adds spacing on the sides */
+}
+
+.icon-container {
+    height: 50px;
+}
+
+.fasco-logo {
+    transition: all 0.5s ease;
+    width: 100px;
+}
+
+.fasco-logo:hover {
+    width: 110px;
+}
+
+nav {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sign-up {
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px grey;
+}
+
+nav a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: grey;
+    font-size: 11px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    }
+
+.left-img { 
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    grid-area: 1 / 1 / 13 / 5; 
+}
+
+.top-img { 
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    grid-area: 1 / 5 / 4 / 9; 
+}
+
+.sale-text { 
+    grid-area: 4 / 5 / 10 / 9; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimate {
+    color: #484848;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.sale {
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke: 0.5px #484848;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.sale-text p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    padding-top: 90px;
+    line-height: 0;
+}
+
+.shop-btn {
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px grey;
+    margin-bottom: 10px;
+}
+
+.shop-btn:hover {
+    font-size: 13px;
+}
+
+.bottom-img { 
+    background-color: #F19E90;
+    border-radius: 10px;
+    grid-area: 10 / 5 / 13 / 9; 
+}
+
+.right-img { 
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    grid-area: 1 / 9 / 13 / 13; 
+}
+
+ .brands img {
+    width: 100px;
+ }
+
+ .brands {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+ }
+
+
+ .deals{
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;  /* Aligns items horizontally */
+    align-items: center;  /* Aligns items vertically */
+    justify-content: space-between; /* Adjust spacing */
+ }
+
+.dotm {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allows text to take available space */
+    justify-content: center;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.deal-items {
+    display: flex;
+    position: relative;
+    gap: 10px; /* Adds space between images */
+    margin: 0;
+}
+
+.deal-items img {
+    width: 200px;
+}
+
+.dotm h3 {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.dotm p {
+    font-size: 15px;
+    margin-right: 100px;
+}
